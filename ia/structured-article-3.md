@@ -1,0 +1,13 @@
+# Coloum Tamplete
+
+---
+title: The effects of climate change on tropical birds
+subtitle: Abstract
+author: Richard B. Primackc, Janice Wormworthd
+
+---
+
+
+Birds are among the most widely studied organisms on earth and represent an important indicator group for learning about the effects of climate change – particularly in regard to the effects of climate change on tropical ecosystems. In this review, we assess the potential impacts of climate change on tropical birds and discuss the factors that affect species’ ability to adapt and survive the impending alterations in habitat availability. Tropical mountain birds, species without access to higher elevations, coastal forest birds, and restricted-range species are especially vulnerable. Some birds may be especially susceptible to increased rainfall seasonality and to extreme weather events, such as heat waves, cold spells, and tropical cyclones. Birds that experience limited temperature variation and have low basal metabolic rates will be the most prone to the physiological effects of warming temperatures and heat waves. Mostly unknown species’ interactions, indirect effects, and synergies of climate change with other threats, such as habitat loss, emerging diseases, invasive species, and hunting will exacerbate the effects of climate change on tropical birds. In some models habitat loss can increase bird extinctions caused by climate change by 50%. 3.5 °C surface warming by the year 2100 may result in 600–900 extinctions of land bird species, 89% of which occur in the tropics. Depending on the amount of future habitat loss, each degree of surface warming could lead to approximately 100–500 additional bird extinctions. Protected areas will be more important than ever, but they need to be designed with climate change in mind. Although 92% of currently protected areas are likely to become climatically unsuitable in a century, for example only 7 or 8 priority species’ preferred climatic envelopes are projected to be entirely lost from the African Important Bird Area network. Networks of protected areas need to incorporate extensive topographical diversity, cover wide elevational ranges, have high connectivity, and integrate human-dominated landscapes into conservation schemes. Most tropical bird species vulnerable to climate change are not currently considered threatened with extinction, often due to lack of knowledge; systematically and regularly gathering information on the ecology, and current and future distributions of these species is an urgent priority. Locally based, long-term tropical bird monitoring and conservation programs based on adaptive management are essential to help protect birds against climate change.
+
+---
