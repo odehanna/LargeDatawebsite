@@ -1,0 +1,1 @@
+The most important in this website is the contact that will be legible and easily printed.  Therefore, the contact is presented in a readable size. The page organization presented clear as well. The structure will remain the same almost on each page. Clear colour of the background  provide provides calm reading.

@@ -1,12 +1,5 @@
 # Sitemap
 
-- Home
-- About
-	- Anna
-- Contact
-
----
-
 - What's a Tropical Bird
 - Most beautiful types of birds
 	- African Grey
