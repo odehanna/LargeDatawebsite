@@ -1,0 +1,7 @@
+#http://robotstxt.org
+
+# Show search engines where to find our sitemap
+Sitemap: http://odehanna.github.io/LargeDatawebsite/sitemap.xml
+
+User-Agent: *
+

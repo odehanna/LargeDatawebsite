@@ -13,12 +13,12 @@
    REQUIRED to use this code on every page.
    -->
    
-      <loc>http://dinosaurs.com/</loc>
+      <loc>http://odehanna.github.io/LargeDatawebsite/</loc>
     <!--  
 		The last modified date 
 	  OPPTIONAL
 	  -->
-	  <lastmod>2005-01-01</lastmod>
+	  <lastmod>2013-10</lastmod>
 	  
 	    <!--  
 		Change frequency: suggest to Google how often spider the page
@@ -31,7 +31,7 @@
 		-always
 		OPTIONAL
 		-->
-      <changefreq>monthly</changefreq>
+      <changefreq>never</changefreq>
 	  
 	      <!-- 
 		   Priority:how important this page it to your website
@@ -45,7 +45,7 @@
    </url>
 
 	<url>
-	<loc>htpp://dinosaurs.com/herbivores.html</loc>
+	<loc>http://odehanna.github.io/LargeDatawebsite/</loc>
 	</url>
 
 
