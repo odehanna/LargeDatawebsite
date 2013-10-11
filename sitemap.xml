@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<!-- 
+  sitemap.xml should be at the root of your domain
+  The same location as your index.html
+   -->
+
+   <url>
+  <!-- 
+  <loc> is the full URL for the page on your site, including domain
+   REQUIRED to use this code on every page.
+   -->
+   
+      <loc>http://dinosaurs.com/</loc>
+    <!--  
+		The last modified date 
+	  OPPTIONAL
+	  -->
+	  <lastmod>2005-01-01</lastmod>
+	  
+	    <!--  
+		Change frequency: suggest to Google how often spider the page
+		-never
+		-yearly
+		-monthly
+		-weekly
+		-daily
+		-hourly
+		-always
+		OPTIONAL
+		-->
+      <changefreq>monthly</changefreq>
+	  
+	      <!-- 
+		   Priority:how important this page it to your website
+		  Between 0.1 and 1.0
+		  0.1- less important
+		  1.0-Most important
+		  OPTIONAL
+		  Default: 0.5
+		  -->
+      <priority>0.8</priority>
+   </url>
+
+	<url>
+	<loc>htpp://dinosaurs.com/herbivores.html</loc>
+	</url>
+
+
+
+</urlset> 
