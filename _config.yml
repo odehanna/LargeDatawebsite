@@ -1,1 +1,2 @@
 markdown: redcarpet
+exclude: ['ia', 'style-guide', 'README.md', 'personas.md', 'articles', 'ContentPrioritization']
