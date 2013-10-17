@@ -1,0 +1,28 @@
+# humanstxt.org
+
+# TEAM
+
+Designer & Developer: Anna Odeh <odeh.anna@gmail.com>
+Site: http://odehanna.com
+GitHub: https://github.com/thomasjbradley
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Icons from The Noun Project <http://thenounproject.com/>
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Dreamweaver
+- Git + GitHub
+
+
+## Hosting
+
+- WiredTree <http://gitthub.io>
