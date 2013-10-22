@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="{{page.meta}}">
+	<title>{{page.title}}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="Anna Odeh">
@@ -26,26 +28,26 @@
 	 
 	 <!--Facebook-->
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="Title of this page, same as <title>">
+	<meta property="og:title" content="{{page.title}}">
 	<meta property="og:url" content="http://fullurl.com/to-this/article.http">
 	<!--Image size: minimum 200x200; recommended 1500x1500-->
-	<meta property="og:image" content="http://domain.com/img/thing.jpg">
+	<meta property="og:image" content="http://odehanna.github.io/large-data-website/index.html">
 	 <!-- `og:description` is also optional, but could easily be filled with the meta description -->
-	<meta property="og:description" content=" information about many of these species.">
+	<meta property="og:description" content="{{page.meta}}">
 	 <!-- `og:site_name` is optional but highly recommended -->
 	<meta property="og:site_name" content="Tropical Birds">
 	
 	
 	<!--Twitter-->
 	<meta property="twitter:card" content="summary">
-	<meta property="twitter:title" content="Title of this page, same as <title>">
+	<meta property="twitter:title" content="{{page.title}}">
 	<meta property="twitter:url" content="http://fullurl.com/to-this/article.http">
 	<!--Image size: minimum 120x120; recommended 1500x1500-->
-	<meta property="twitter:image" content="http://domain.com/img/thing.jpg">
-	<meta property="twitter:description" content="On this website you can find decent amount of information about many of these species.">
+	<meta property="twitter:image" content="http://odehanna.github.io/large-data-website/index.html">
+	<meta property="twitter:description" content="{{page.meta}}">
 	 
 </head>
-
+{{page.url}}
 
 <!--	{% include nav.html %}-->
 <body>
@@ -58,20 +60,20 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<img src="images/logo.svg"  alt="Logo" class="logo">
-				<a class="navbar-brand" href="index.html">Tropical Birds</a>
+				<img src="{{site.baseurl}}/images/logo.svg"  alt="Logo" class="logo">
+				<a class="navbar-brand" href="{{site.baseurl}}/index.html" rel="home">Tropical Birds</a>
 			</div>
 			<div class="navbar-collapse collapse" >
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">Home</a></li>
-					  <li><a href="enviromental-facts.html"> Enviromental Facts</a></li>
-					   <li><a href="#endangered"> Endangered birds</a></li>
-					   <li><a href="#inhabitants"> Inhabitants</a></li>
-            			<li><a href="#contact">Contact</a></li>
-					   <li class="dropdown">
+					<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html" rel="home">Home</a></li>
+					  <li class="{% if page.url == '/enviromental-facts.html' %}active{% endif %}"><a href="{{site.baseurl}}/enviromental-facts.html"> Enviromental Facts</a></li>
+					   <li><a href="{{site.baseurl}}/#endangered"> Endangered birds</a></li>
+					   <li><a href="{{site.baseurl}}/#inhabitants"> Inhabitants</a></li>
+            			<li><a href="{{site.baseurl}}/#contact">Contact</a></li>
+					   <li class="dropdown {% if page.url contains 'birds' %}active{% endif %}">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">List of Birds<b class="caret"></b></a>
               <ul class="dropdown-menu">
-               <li><a href="african-grey.html">African Grey</a></li>
+               <li><a href="{{site.baseurl}}/birds/african-grey.html">African Grey</a></li>
                <li><a href="#">Booby</a></li>
                <li><a href="#">Flamingo</a></li>
 				 <li><a href="#">Toucan</a></li>
@@ -102,6 +104,12 @@
 		</footer>
 
 	 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script  src="{{site.baseurl}}/js/jquery.js"></script>
+    <script  src="{{site.baseurl}}/js/bootstrap.min.js"></script>		
+				
 	<!-- {% include nav.html %}-->
 	 </body>
 	 </html>
