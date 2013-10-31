@@ -1284,6 +1284,7 @@ pre code {
   }
   .col-lg-4 {
     width: 33.33333333333333%;
+		
   }
   .col-lg-5 {
     width: 41.66666666666667%;
@@ -1292,8 +1293,11 @@ pre code {
     width: 50%;
   }
   .col-lg-7 {
-    width: 58.333333333333336%;
+    width: 58.333333333333336%; 
+	border-right: #54b89e dashed 1px;
+	 border-bottom: none;
   }
+
   .col-lg-8 {
     width: 66.66666666666666%;
   }
