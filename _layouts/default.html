@@ -52,6 +52,12 @@
 <!--	{% include nav.html %}-->
 <body>
 
+<ul class="skiplinks">
+<li><a href="#main">Skip to primary content</a></li>
+<li><a href="#complementary">Skip to secondary content</a></li>
+<li><a href="#navigation">Skip to navigation</a></li>
+</ul>
+
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -63,6 +69,8 @@
 				<img src="{{site.baseurl}}/images/logo.svg"  alt="company logo" class="logo">
 				<a class="navbar-brand" href="{{site.baseurl}}/index.html" rel="home">Tropical Birds</a>
 			</div>
+			
+			<nav role="navigation" id="navigation">
 			<div class="navbar-collapse collapse" >
 				<ul class="nav navbar-nav">
 					<li class="{% if page.url == '/index.html' %}active{% endif %}"><a href="{{site.baseurl}}/index.html" rel="home">Home</a></li>
