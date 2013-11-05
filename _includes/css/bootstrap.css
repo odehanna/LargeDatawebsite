@@ -381,12 +381,15 @@ img {
 }
 
 .img-decor{
-	max-width: 150%;
+	max-width: 100%;
 	float:right;
 	padding-top:30px;
-	
+	right:0;
 }
-
+.bird-img{
+	max-width:80%;
+	margin-bottom:3rem;
+}
 
 hr {
   margin-top: 20px;
@@ -771,6 +774,26 @@ pre code {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 1px;
+}
+
+.home{
+	max-width:100%;
+	float:right;
+	padding-right: 0;
+	padding-top: 110px;
+	overflow:hidden;
+
+}
+
+@media (min-width: 300px) {
+	.home{
+		padding-top: 40px;
+	}
+}
+
+.bird{
+	padding-top: 110px;
+	max-width: 90%;
 }
 
 .container h1{
@@ -3373,4 +3396,8 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+.copyright{
+	margin-left: 10%;
 }
