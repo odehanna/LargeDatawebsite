@@ -2728,6 +2728,12 @@ fieldset[disabled] .btn {
   border-bottom: 1px  dotted #54b89e;
 }
 
+@media (min-width: 1115px) {
+	.jumbotron {
+		border-bottom: none;
+}
+
+}
 .jumbotron-new {
   padding: 55px 30px 30px 30px;
   margin-bottom: 30px;
