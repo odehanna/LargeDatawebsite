@@ -59,6 +59,8 @@ body {
 	margin-top:50px;
 }
 
+
+
 a:focus {
   outline: thin dotted;
 }
@@ -378,9 +380,13 @@ img {
           transition: all 0.2s ease-in-out;
 }
 
-.img-circle {
-  border-radius: 50%;
+.img-decor{
+	max-width: 150%;
+	float:right;
+	padding-top:30px;
+	
 }
+
 
 hr {
   margin-top: 20px;
@@ -2681,6 +2687,15 @@ fieldset[disabled] .btn {
   border-bottom: 1px  dotted #54b89e;
 }
 
+.jumbotron-new {
+  padding: 60px 30px 30px 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+
+}
 .jumbotron h1 {
   line-height: 1;
   color: inherit;
