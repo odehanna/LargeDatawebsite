@@ -912,7 +912,8 @@ pre code {
   position: relative;
   min-height: 1px;
   width:90%;
-  margin-left: 5rem;
+  margin-left:10px;
+  margin-right:10px;
 
 
   
@@ -979,7 +980,7 @@ pre code {
 }
 
 .col-xs-12 {
-  width: 100%;
+  width: 90%;
   border-bottom: #54b89e dashed 1px;
 }
 
