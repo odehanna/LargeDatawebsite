@@ -63,6 +63,7 @@ body {
 }
 @media (min-width: 1150px) {
 .container-home{
+	min-height: 800px;
 	position:absolute;
 	top:150px;
 	left:30px;
@@ -1167,7 +1168,7 @@ pre code {
   .col-md-4 {
     width: 33.33333333333333%;
 	 border-bottom: none;
-	 min-height: 400px;
+
   }
   .col-md-5 {
     width: 41.66666666666667%;
