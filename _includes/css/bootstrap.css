@@ -63,7 +63,6 @@ body {
 }
 @media (min-width: 1150px) {
 .container-home{
-	min-height: 800px;
 	position:absolute;
 	top:150px;
 	left:30px;
@@ -3517,4 +3516,16 @@ td.visible-print {
 .feathers img{
 	width:auto;
 }
+}
+
+@media (min-width: 700px) {
+.footer-menu{
+	margin-left: 100px;
+}
+}
+
+.footer-menu li{
+	display:inline-block;
+	float: left;
+	padding-right: 15px;
 }

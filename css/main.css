@@ -3,3 +3,4 @@
 
 {% include css/bootstrap.css %}
 {% include css/jumbotron.css %}
+{% include css/normalize.css %}
